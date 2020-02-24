@@ -53,7 +53,6 @@ $main-color: #fff;
         }
         .image-slide{
             img{
-                position: absolute;
                 right: 5px;
                 top: 5px;
                 z-index: 999;
@@ -153,6 +152,31 @@ $main-color: #fff;
     }
 }
 .coppy-right-footer{
+    padding: 10px 0;
     background-image: linear-gradient(to right, #094baf, #1a3ea0, #223091, #262381, #281472);
-    border-top: 1px solid #fff;
+    border-top: 1px solid rgb(97, 98, 104);
+    .list-group{
+        display: block;
+        .list-group-item{
+            background-color: inherit; 
+            border: none;
+            padding: 2px;
+            font-size: 15px;
+            color: #fff;    
+            display: inline-block;
+            .fa{
+                color: #fff;
+                margin: 5px;
+            }
+        }
+    }
+    .link-text{
+        span{
+            color: #fff;
+            font-size: 12px;
+        }
+    }
+    a{
+        color: #fff;
+    }
 }
