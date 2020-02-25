@@ -12,27 +12,18 @@
             autoplayTimeout: 5000,
             autoplayHoverPause: true,
             responsive: {
-                0: {
-                    items: 1,
-                    dots: false,
-                    nav: true
+                0:{
+                    items:1,
+                    nav:true
                 },
-                575: {
-                    items: 1,
-                    dots: false,
-                    nav: true
+                600:{
+                    items:3,
+                    nav:false
                 },
-                600: {
-                    items: 3
-                },
-                991: {
-                    items: 4
-                },
-                1000: {
-                    items: 5
-                },
-                1200: {
-                    items: 5
+                1000:{
+                    items:5,
+                    nav:true,
+                    loop:false
                 }
             }
         })
