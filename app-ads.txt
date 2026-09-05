@@ -1,5 +1,1 @@
-# app-ads.txt file for AdMob
-# Please add your AdMob app ID and publisher ID below
-
-# Example format:
-# 1234567890abcdef, site_verification
+google.com, pub-5318398512270673, DIRECT, f08c47fec0942fa0
